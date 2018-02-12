@@ -8,7 +8,7 @@
 #git clone git@github.com:whatever folder-name -r
 Try{
 
-	$dirPath = "C:\Users\votinje\source\repos\TestRepo\folder-name"
+	$dirPath = "C:\Git Mirror\GBG"
 
 	if((Test-Path -Path $dirPath) -ne $true){
 		New-Item -ItemType Directory -Force -Path $dirPath
