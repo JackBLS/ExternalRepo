@@ -6,8 +6,10 @@
 #git push -u  origin --all
 
 #git clone git@github.com:whatever folder-name -r
-$dirPath = "C:\Users\votinje\source\repos\TestRepo\folder-name"
-Try
+Try{
+
+	$dirPath = "C:\Users\votinje\source\repos\TestRepo\folder-name"
+
 	if((Test-Path -Path $dirPath) -ne $true){
 		New-Item -ItemType Directory -Force -Path $dirPath
 	}
