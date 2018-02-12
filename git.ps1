@@ -19,7 +19,8 @@ Try{
 		git clone https://jackbls:pass123@github.com/JackBLS/ExternalRepo.git $dirPath
 	}
 	else{
-		git pull 
+		git fetch
+		git reset --hard
 	}
 
 	git add .
