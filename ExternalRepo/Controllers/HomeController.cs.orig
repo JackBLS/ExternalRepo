@@ -8,6 +8,10 @@ namespace ExternalRepo.Controllers
 {
     public class HomeController : Controller
     {
+<<<<<<< HEAD
+
+=======
+>>>>>>> 4a8bf34d7098eba3f83608afa435767a6cf54588
         public ActionResult Index()
         {
             return View();
