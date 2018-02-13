@@ -9,10 +9,14 @@ namespace ExternalRepo.Controllers
     public class HomeController : Controller
     {
 <<<<<<< HEAD
-        //hello
+<<<<<<< HEAD
+        //hello test1
 =======
         //hello test1234
 >>>>>>> 6f72d6d93e3c1b49b9696f59f77a3804cfd24455
+=======
+        //hello world111
+>>>>>>> c155315c01dc32515671bbec1e65d1c1cc2a21c3
         public ActionResult Index()
         {
             return View();
